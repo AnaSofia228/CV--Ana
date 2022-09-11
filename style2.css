@@ -1,0 +1,70 @@
+.contenedor_padre {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    margin-top: 1rem;
+}
+
+
+.contactos {
+    border: solid 1px black;
+}
+
+img {
+    width: 20%;
+    height: 25vh;
+    margin: 2rem;
+    border: solid 2px black;
+}
+
+.img_titulo {
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    margin-right: 20rem;
+    font-size: 3rem;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    margin-left: 12rem;
+    margin-top: -5rem;
+}
+
+label {
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 1rem;
+    border: solid 1px black;
+    padding: 5px;
+    width: 23vw;
+}
+
+.sobreMi {
+    border: solid 1px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo {
+    width: 75%;
+    margin-left: 5rem;
+}
+
+.input {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    height: 20rem;
+    width: 35vw;
+    border: solid 1px black;
+    font-size: 1.5rem;
+    padding: 15px;
+}
